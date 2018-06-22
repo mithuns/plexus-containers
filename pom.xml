@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.codehaus.plexus</groupId>
     <artifactId>plexus</artifactId>
-    <version>2.0.2</version>
+    <version>5.1</version>
   </parent>
 
   <artifactId>plexus-containers</artifactId>
@@ -110,8 +110,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>1.6</source>
+          <target>1.6</target>
           <encoding>${project.build.sourceEncoding}</encoding>
         </configuration>
       </plugin>
